@@ -2,7 +2,7 @@
 Fine tuning of parameters to generate 128x128x3 images using 1000 images, trained on 1500 epochs.
 DCGAN model with dropout of 0.5 and one sided labelling in Discriminator output images with the best visual quality among all the combination experimented.
 
-Ipynb is not uploaded as the file size is too big (> 100mb). Access Google Colab notebook for fine-tuning code via https://colab.research.google.com/drive/1r_aX_4mT3YeyUKi7lRP7Hpc61sVNvOJx?usp=sharing
+Ipynb is not uploaded as the file size is too big (> 100mb). Access Google Colab notebook for fine-tuning results via https://colab.research.google.com/drive/1r_aX_4mT3YeyUKi7lRP7Hpc61sVNvOJx?usp=sharing
 
 ## Table on a list of configuration changes experimented
 ![configuration changes table](https://github.com/mingxiuuuuu/Fine-Tuning/blob/master/Configuration%20changes%20experimented.PNG)
