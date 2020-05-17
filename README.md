@@ -7,6 +7,9 @@ Ipynb is not uploaded as the file size is too big (> 100mb). Access Google Colab
 ## Table on a list of configuration changes experimented
 ![configuration changes table](https://github.com/mingxiuuuuu/Fine-Tuning/blob/master/Configuration%20changes%20experimented.PNG)
 
+## Expanded DCGAN faced convergence failure as Discrimnator can easily discriminate real and fake images with the bigger image. Adding dropout of 0.5 prevented convergence failure while SGD optimiser in Discrimnator, one-side labelling in Discriminator and LeakyReLU optimiser function in Generator do not.
+![dropout 0.5](https://github.com/mingxiuuuuu/Fine-Tuning/blob/master/dropout%200.5.png)
+
 ## Results after respective configuration changes
 ![respective configuration changes](https://github.com/mingxiuuuuu/Fine-Tuning/blob/master/images%20generated%20after%20respective%20configuration%20changes.png)
 
